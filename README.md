@@ -13,7 +13,7 @@ Hello Let's Talk About Myself I live in Turkey and I can write mojangson and lua
 # Gui is not working 
 You can place scripts where it says SCRIPT HERE so that the GUI can be opened
 
-# Yourube Channel
+# Youtube Channel
 SupremeDoritos
 
 # Whats Roblox

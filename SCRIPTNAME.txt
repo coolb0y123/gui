@@ -1,8 +1,8 @@
--- By YOUR NAME HERE
+-- c: carpenter 
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Discord";
-    Text = "Discord Link Here"; -- what the text says (ofc)
+    Title = "enjoy!";
+    Text = "↓"; -- black nuts
     Duration = 60;
 })
 
@@ -26,7 +26,7 @@ main.Visible = false
 main.Active = true
 main.Draggable = true
 
-title.Name = "title"
+title.Name = "›‹"
 title.Parent = main
 title.BackgroundColor3 = Color3.new(1, 0, 1)
 title.Size = UDim2.new(0, 332, 0, 31)
@@ -35,8 +35,8 @@ title.Text = "Project Name"
 title.TextColor3 = Color3.new(0, 0, 0)
 title.TextSize = 14
 
---Aimbot
-prisonbreakerv15.Name = "prisonbreakerv15"
+
+prisonbreakerv15.Name = "future"
 prisonbreakerv15.Parent = main
 prisonbreakerv15.BackgroundColor3 = Color3.new(0.333333, 1, 0)
 prisonbreakerv15.Position = UDim2.new(0.036144577, 0, 0.379146934, 0)
@@ -48,24 +48,26 @@ prisonbreakerv15.TextScaled = true
 prisonbreakerv15.TextSize = 10
 prisonbreakerv15.TextWrapped = true
 prisonbreakerv15.MouseButton1Down:connect(function()
-SCRIPT HERE
+loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+
+
 end)
 
---Esp Script
-prisonbreakerv16.Name = "prisonbreakerv16"
-prisonbreakerv16.Parent = main
-prisonbreakerv16.BackgroundColor3 = Color3.new(0.333333, 1, 0)
-prisonbreakerv16.Position = UDim2.new(0.614457846, 0, 0.379146934, 0)
-prisonbreakerv16.Size = UDim2.new(0, 110, 0, 50)
-prisonbreakerv16.Font = Enum.Font.GothamBold
-prisonbreakerv16.Text = "Button"
-prisonbreakerv16.TextColor3 = Color3.new(0, 0, 0)
-prisonbreakerv16.TextScaled = true
-prisonbreakerv16.TextSize = 14
-prisonbreakerv16.TextWrapped = true
-prisonbreakerv16.MouseButton1Down:connect(function()
-SCRIPT HERE
-end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 close.Name = "close"
 close.Parent = main
